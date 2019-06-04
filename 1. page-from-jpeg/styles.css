@@ -1,0 +1,41 @@
+
+.header-part {
+    max-height: 200px;
+    text-indent: -140px;
+    vertical-align: middle;
+
+    overflow: hidden;
+}
+
+.main {
+    max-width: 978px;
+    position: center;
+    margin: auto;
+
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    flex: 50%;
+}
+
+.contact-container {
+    flex: 50%;
+    max-width: 15%;
+    height: 500px;
+    position: relative;
+}
+
+.contact-main {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+div.contact-person>img {
+    width: 30px;
+    height: 30px;
+}
